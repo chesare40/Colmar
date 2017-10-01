@@ -1,0 +1,43 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+
+/* --- Header ---*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.m-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 24px;
+}
+
+.menu {
+  margin-right: 24px;
+}
+
+nav span {
+  margin-left: 16px;
+}
+
+.img-container {
+  width: 100%;
+  height: 32px;
+}
+
+.title1 {
+  color: gray;
+}
