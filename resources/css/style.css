@@ -41,3 +41,22 @@ nav span {
 .title1 {
   color: gray;
 }
+
+/* --- Banner or Intro --- */
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 24px;
+  background-color: lightgray;
+
+}
+
+.intro .img-container2 {
+  width: 100%;
+}
+
+.intro .img-container2 img {
+  width: 60%;
+}
