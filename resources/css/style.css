@@ -170,3 +170,17 @@ div.img-mini {
 .description p {
   margin-top: 8px;
 }
+
+/* --- Thesis section --- */
+/* The divs in this sections have the same class as the 2nd banner section */
+
+.thesis {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 24px;
+}
+
+.video video {
+  width: 100%;
+}
