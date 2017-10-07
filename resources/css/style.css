@@ -129,3 +129,44 @@ div.img-mini {
 .background {
   background-color: lightgray;
 }
+
+/* --- Information Grid ---*/
+.learning {
+  background-color: lightgray;
+  padding: 32px 0;
+}
+
+.title {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 32px 40px;
+}
+
+.content {
+  width: 31%;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.img-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  padding-left: 16px;
+}
+
+.description h2 {
+  margin: 16px 0;
+}
+
+.description p {
+  margin-top: 8px;
+}
