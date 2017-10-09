@@ -184,3 +184,16 @@ div.img-mini {
 .video video {
   width: 100%;
 }
+
+/* --- Footer -- */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  padding: 16px 24px;
+}
+
+.foot2 span {
+  padding: 10px 10px;
+}
