@@ -1,6 +1,6 @@
 html {
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: "Raleway", sans-serif;
 }
 
 h3 {
@@ -34,8 +34,22 @@ header {
   margin-right: 24px;
 }
 
-nav span {
+nav span a {
   margin-left: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+nav span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav span a:hover {
+  background-color: cornflowerblue;
+  color: white;
+  transition: 100ms linear 0ms;
 }
 
 .title1 {
@@ -71,6 +85,10 @@ nav span {
 
 .text {
   width: 40%;
+}
+
+.text h1 {
+  font-size: 3.5rem;
 }
 
 /* --- 2nd Banner & info --- */
@@ -122,8 +140,17 @@ div.img-mini {
   margin: 8px;
 }
 
+.orientation h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .format {
   color: Dodgerblue;
+}
+
+.orientation .format2 h4 {
+  font-weight: 2rem;
 }
 
 .background {
